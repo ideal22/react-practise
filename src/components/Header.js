@@ -2,6 +2,7 @@ import React from 'react'
 import CustomLink from '../sharing/CustomLink'
 
 function Header() {
+  console.log('test branch changes')
   return (
     <header className="header">
       <CustomLink to="/">Home</CustomLink>
