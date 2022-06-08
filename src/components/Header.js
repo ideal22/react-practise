@@ -3,6 +3,7 @@ import CustomLink from '../sharing/CustomLink'
 
 function Header() {
   console.log('test branch changes11')
+  console.log('another test changes')
   return (
     <header className="header">
       <CustomLink to="/">Home</CustomLink>
