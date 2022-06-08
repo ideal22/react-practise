@@ -8,6 +8,7 @@ function Posts() {
     fetch('https://jsonplaceholder.typicode.com/posts')
       .then((res) => res.json())
       .then((res) => setPosts(res))
+      .catch((e) => console.log(e))
   }, [])
 
   return (
