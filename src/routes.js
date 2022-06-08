@@ -3,6 +3,7 @@ import About from './pages/About'
 import AllComments from './pages/AllComments'
 import CreatePost from './pages/CreatePost'
 import EditPost from './pages/EditPost'
+import GoodsStock from './pages/GoodsStock'
 import Home from './pages/Home'
 import Login from './pages/Login'
 import NotFoundPage from './pages/NotFoundPage'
@@ -45,6 +46,11 @@ export const routes = [
     path: 'photos',
     isIndex: false,
     Element: Photos,
+  },
+  {
+    path: 'goods',
+    isIndex: false,
+    Element: GoodsStock,
   },
   {
     path: '*',
